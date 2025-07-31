@@ -3,7 +3,9 @@ class RoutePath {
 
   //=================== General screens ===================
   static const String splashScreen = 'SplashScreen';
-  static const String homeScreen = 'HomeScreen';
+  static const String formPage = 'FormPage';
+  static const String fromListPage = 'FromListPage';
+  static const String submissionViewPage = 'SubmissionViewPage';
 
 
 
