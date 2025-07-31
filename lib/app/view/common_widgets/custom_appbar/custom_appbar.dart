@@ -22,10 +22,10 @@ class CustomSliverAppBar extends StatelessWidget {
         title: LayoutBuilder(
           builder: (context, constraints) {
             double appBarHeight = constraints.biggest.height;
-            bool isExpanded = appBarHeight > kToolbarHeight + 20; // Expanded হলে true
+            bool isExpanded = appBarHeight > kToolbarHeight + 20;
 
             return isExpanded
-                ? const SizedBox.shrink() // ✅ এখানে null এর পরিবর্তে SizedBox.shrink() ব্যবহার করুন
+                ? const SizedBox.shrink()
                 : Text(
               title,
               style: const TextStyle(

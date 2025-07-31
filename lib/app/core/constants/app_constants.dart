@@ -2,7 +2,7 @@ class AppConstants {
   AppConstants._();
 
   // General app info
-  static const String appName = "Scholarship";
+  static const String appName = "SmartSurvey";
   static const String appVersion = "1.0.0";
 
   // API related
